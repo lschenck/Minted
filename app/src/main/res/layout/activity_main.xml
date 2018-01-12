@@ -12,14 +12,6 @@
     android:paddingTop="16dp"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        app:srcCompat="@drawable/diamond_image" />
 
     <TextView
         android:id="@+id/textView"
@@ -30,5 +22,17 @@
         android:text="@string/title"
         android:textColor="#FFFFFF"
         android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_toLeftOf="@+id/textView"
+        android:contentDescription="@string/picture_title"
+        app:srcCompat="@drawable/diamond_image" />
 
 </RelativeLayout>

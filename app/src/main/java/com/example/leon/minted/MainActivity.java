@@ -12,10 +12,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private void()TesrtUpload {
+    private void TesrtUpload (){
         int i = 1 + 2;
-        int s = i + 3;
-        int g = 14;
     }
 
 }
